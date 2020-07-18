@@ -16,14 +16,14 @@ To get more info, simply type  ```python graphic_editor.py --help ```.
 Run with python version 3.6.9 or higher.
 
 #### Image operations
-- ```rotate``` - Rotate an image 90 degrees to the right
-- ```mirror``` - Mirrored image
-- ```inverse``` - Inverse image
-- ```bw``` - Transform to black and white
-- ```lighten <percentage: 0-100>``` - Make image some percentage lighter
-- ```darken <percentage: 0-100>``` - Make image some percentage darker
-- ```sharpen``` - Apply sharpening kernel on the image (convolution)
-- ```blur``` - Applying Gaussian blur 3x3 kernel on the image (convolution)
+- ```--rotate``` - Rotate an image 90 degrees to the right
+- ```--mirror``` - Mirrored image
+- ```--inverse``` - Inverse image
+- ```--bw``` - Transform to black and white
+- ```--lighten <percentage: 0-100>``` - Make image some percentage lighter
+- ```--darken <percentage: 0-100>``` - Make image some percentage darker
+- ```--sharpen``` - Apply sharpening kernel on the image (convolution)
+- ```--blur``` - Applying Gaussian blur 3x3 kernel on the image (convolution)
 
 ### Dependencies
 
