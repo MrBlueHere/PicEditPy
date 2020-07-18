@@ -42,19 +42,19 @@ To run the tests, simply type ```pytest``` inside the projects directory.
 
 Original image
 
-![Original image](/home/mrblue/Documents/CVUT_FIT/PYT/PicEditPy/tests/rick_morty.png "Original image")
+![Original image](tests/rick_morty.png "Original image")
 
 -lighten 50
 
-![-lighten 50](/home/mrblue/Documents/CVUT_FIT/PYT/PicEditPy/tests/rick_morty_lightened_50.png "-lighten 50")
+![-lighten 50](tests/rick_morty_lightened_50.png "-lighten 50")
 
 -darken 50
 
-![-darken 50](/home/mrblue/Documents/CVUT_FIT/PYT/PicEditPy/tests/rick_morty_darkened_50.png "-darken 50")
+![-darken 50](tests/rick_morty_darkened_50.png "-darken 50")
 
 -sharpen
 
-![-sharpen](/home/mrblue/Documents/CVUT_FIT/PYT/PicEditPy/tests/rick_morty_sharpened.png "-sharpen")
+![-sharpen](tests/rick_morty_sharpened.png "-sharpen")
 
 ## Authors
 
