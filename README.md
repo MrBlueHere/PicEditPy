@@ -8,7 +8,7 @@ and BW images specified by CLI arguments.
 
 Editing the image in CLI follows this format:
 ```
-python graphic_editor.py [OPERATION]... [INPUT_FILE] [OUTPUT_FILE]
+python graphic_editor.py --[OPERATION] --[NEXT_OPERATION]... [INPUT_FILE] [OUTPUT_FILE]
 ```
 where INPUT_FILE and OUTPUT_FILE are required arguments.
 To get more info, simply type  ```python graphic_editor.py --help ```.
@@ -42,19 +42,19 @@ To run the tests, simply type ```pytest``` inside the projects directory.
 
 Original image
 
-![Original image](/home/mrblue/Documents/CVUT_FIT/PYT/GraphicEditor/tests/rick_morty.png "Original image")
+![Original image](/home/mrblue/Documents/CVUT_FIT/PYT/PicEditPy/tests/rick_morty.png "Original image")
 
 -lighten 50
 
-![-lighten 50](/home/mrblue/Documents/CVUT_FIT/PYT/GraphicEditor/tests/rick_morty_lightened_50.png "-lighten 50")
+![-lighten 50](/home/mrblue/Documents/CVUT_FIT/PYT/PicEditPy/tests/rick_morty_lightened_50.png "-lighten 50")
 
 -darken 50
 
-![-darken 50](/home/mrblue/Documents/CVUT_FIT/PYT/GraphicEditor/tests/rick_morty_darkened_50.png "-darken 50")
+![-darken 50](/home/mrblue/Documents/CVUT_FIT/PYT/PicEditPy/tests/rick_morty_darkened_50.png "-darken 50")
 
 -sharpen
 
-![-sharpen](/home/mrblue/Documents/CVUT_FIT/PYT/GraphicEditor/tests/rick_morty_sharpened.png "-sharpen")
+![-sharpen](/home/mrblue/Documents/CVUT_FIT/PYT/PicEditPy/tests/rick_morty_sharpened.png "-sharpen")
 
 ## Authors
 
